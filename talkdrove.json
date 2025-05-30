@@ -2,15 +2,14 @@
 {
     "bot-name": "CRAZY-MD-V3",
     "description": "CRAZY-MD made for people on Earth",
-    "logo": "https://raw.githubusercontent.com/DavidTechInc/CRAZY-V3/refs/heads/main/crazty/menu.jpg",
+    "logo": "https://raw.githubusercontent.com/DavidTechInc/CRAZY-V3/refs/heads/main/crazy/menu.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://crazy-sess.onrender.com",
     "owner-verification":"papaigwe65@gmail.com",
   
     "env": {
       "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with Byte;;;, or get session id from here, https://session.talkdrove.com",
-        "value":"",
+        "description": "Put your SESSION_ID here. Make sure it starts with CRAZY;;;, or get session id from here, https://crazy-sess.onrender.com",
         "required": true
         
       },
