@@ -16,16 +16,16 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔  *CRAZY MD V3* 〕━━┈⊷
-┃◈╭─────────────────·๏
+        let dec = `╭━━〔  *CRAZY MD V3* 〕━┈⊷
+┃◈╭────────────────·๏
 ┃◈┃Owner : *${config.OWNER_NAME}*
 ┃◈┃Prefix : *[${config.PREFIX}]*
 ┃◈┃Database : *CrazyData*
 ┃◈┃Version : *3.0.0*
-┃◈╰─────────────────┈⊷
-╰━━━━━━━━━━━━━━━━━━━┈⊷
+┃◈╰───────────────┈⊷
+╰━━━━━━━━━━━━━━━━━━┈⊷
 
-*╭──❒⁠⁠⁠⁠* *DOWNLOAD MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *📥DOWNLOAD MENU📥* *❒⁠⁠⁠⁠* 
 *├* *facebook*
 *├* *mediafire*
 *├* *tiktok*
@@ -53,7 +53,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *tiks*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *GROUP MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *👫GROUP MENU👫* *❒⁠⁠⁠⁠* 
 *├* *grouplink*
 *├* *kickall*
 *├* *kickall2*
@@ -90,7 +90,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *tagadmins*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *REACTIONS MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *🤓REACT MENU🤓* *❒⁠⁠⁠⁠* 
 *├* *bully @tag*
 *├* *cuddle @tag*
 *├* *cry @tag*
@@ -119,7 +119,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *cringe @tag*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *LOGO MAKER* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *🏞️LOGO MAKER🏞️* *❒⁠⁠⁠⁠* 
 *├* *neonlight*
 *├* *blackpink*
 *├* *dragonball*
@@ -153,7 +153,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *birthday*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *OWNER MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *👨🏽‍💻OWNER MENU👨🏽‍💻* *❒⁠⁠⁠⁠* 
 *├* *vv*
 *├* *crazytech*
 *├* *listcmd*
@@ -165,11 +165,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *restart*
 *├* *shutdown*
 *├* *updatecmd*
+*├* *update*
 *├* *gjid*
 *├* *jid*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *FUN MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *🎉FUN MENU🎉* *❒⁠⁠⁠⁠* 
 *├* *shapar*
 *├* *rate*
 *├* *insult*
@@ -196,7 +197,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *poke*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *CONVERT MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *🔃CONVERT MENU🔃* *❒⁠⁠⁠⁠* 
 *├* *sticker*
 *├* *sticker2*
 *├* *emojimix*
@@ -218,7 +219,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *readmore*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *AI MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *🤖AI MENU🤖* *❒⁠⁠⁠⁠* 
 *├* *ai*
 *├* *gpt3*
 *├* *gpt2*
@@ -236,7 +237,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *copilot*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *MAIN MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *💫MAIN MENU💫* *❒⁠⁠⁠⁠* 
 *├* *ping*
 *├* *ping2*
 *├* *speed*
@@ -247,11 +248,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *repo*
 *├* *owner*
 *├* *menu*
+*├* *nsfwmenu*
 *├* *listcmd*
 *├* *restart*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *ANIME MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *🎐ANIME MENU🎐* *❒⁠⁠⁠⁠* 
 *├* *fack*
 *├* *truth*
 *├* *dare*
@@ -280,7 +282,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├* *naruto*
 *┕───────────────────❒*
 
-*╭──❒⁠⁠⁠⁠* *OTHER MENU* *❒⁠⁠⁠⁠* 
+*╭──❒⁠⁠⁠⁠* *💯OTHER MENU💯* *❒⁠⁠⁠⁠* 
 *├* *timenow*
 *├* *date*
 *├* *count*
