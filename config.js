@@ -10,9 +10,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "CRAZY;;;vE4F1YTJ#giubHGJX83JAmaTwvUkVp0_tbhcs2PYQZFM_sae4LeM",
 // add your Crazy Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
@@ -34,17 +34,17 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "CRAZY-MD-V3",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "CRAZY-MD_V3💫",
+STICKER_NAME: process.env.STICKER_NAME || "༺𒋲𖥔⃟𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐄𝐔𝐑↯𝐗-𝐓𝐑𝐄𝐌𝐄𓅃𒋲🛸",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "24105730123",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50940140696",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴄʀᴀᴢʏ ᴅᴇᴠ",
+OWNER_NAME: process.env.OWNER_NAME || "𝐗-𝐓𝐑𝐄𝐌𝐄🛸",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄʀᴀᴢʏ ᴛᴇᴄʜ ɪɴᴄ*",
 // add bot owner name    
@@ -54,7 +54,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> 🔰 ʜɪ ᴅᴀʀʟɪɴɢ ᴄʀᴀᴢʏ �
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
